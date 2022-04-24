@@ -1,12 +1,12 @@
 {#_:paths #_["src" "resources"]
  :deps {org.clojure/clojure {:mvn/version "1.10.3"}
         io.pedestal/pedestal.service {:mvn/version "0.5.10"}
-        io.pedestal/pedestal.jetty {:mvn/version "0.5.10"}}
+        io.pedestal/pedestal.jetty {:mvn/version "0.5.10"}
+        ns-tracker/ns-tracker {:mvn/version "0.4.0"}}
  :aliases
  {:run-m {:main-opts ["-m" "asuki.clj-pedestal-reload-practice"]}
-  #_:run-x #_{:ns-default asuki.clj-pedestal-reload-practice
-              :exec-fn greet
-              :exec-args {:name "Clojure"}}
+  :dev {:ns-default asuki.clj-pedestal-reload-practice
+        :exec-fn run-dev}
   #_:test #_{:extra-paths ["test"]
              :extra-deps {org.clojure/test.check {:mvn/version "1.1.0"}}}
   #_:runner
