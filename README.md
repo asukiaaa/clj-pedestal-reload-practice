@@ -24,6 +24,7 @@ Copyright © 2022 Asuki
 Distributed under the Eclipse Public License version 1.0.
 
 ## References
+- [pedestalでコード変更時に自動更新](https://asukiaaa.blogspot.com/2022/04/pedestal-with-auto-reloading.html)
 - [Watch and auto reload a Clojure pedestal service on source change](https://dev.to/praburajan/watch-and-auto-reload-a-clojure-pedestal-service-on-save-4ehl)
 - [pedestal/samples/auto-reload-server/dev/dev.clj](https://github.com/pedestal/samples/blob/master/auto-reload-server/dev/dev.clj)
 - [Clojureサービス開発ライブラリPedestal入門](https://qiita.com/lagenorhynque/items/fbd66ebaa0352ec4253d)
